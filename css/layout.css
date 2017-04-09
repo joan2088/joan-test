@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*font-size: 0.7em;*/
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	width: 900px;
+	margin: auto;
+}
+
+#banner {
+	height: 260px;
+	background-color: gray;
+}
+
+nav {
+	height: 40px;
+}
+
+#menu li {
+	display: inline;
+	margin: 0 15px;
+	line-height: 40px;
+}
+
+#menu:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
